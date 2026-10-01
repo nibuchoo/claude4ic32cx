@@ -1,0 +1,130 @@
+configVersion: 1.0.0
+componentName: mcspi
+coreVersion: 5.8.3
+device: PIC32CX2051MTSH128
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: mcspi
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: mcspi
+          x: '30'
+          y: '120'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    MCSPI_CSR0_BAUD_RATE:
+      attributes:
+        id: MCSPI_CSR0_BAUD_RATE
+      children:
+      - children:
+        - attributes:
+            id: emafe
+            value: '10000000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_CSR0_SCBR_VALUE:
+      attributes:
+        id: MCSPI_CSR0_SCBR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '11'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_CSR1_SCBR_VALUE:
+      attributes:
+        id: MCSPI_CSR1_SCBR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '118'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_CSR2_SCBR_VALUE:
+      attributes:
+        id: MCSPI_CSR2_SCBR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '118'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_CSR3_SCBR_VALUE:
+      attributes:
+        id: MCSPI_CSR3_SCBR_VALUE
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '118'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_CSR_INDEX:
+      attributes:
+        id: MCSPI_CSR_INDEX
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_EN_NPCS0:
+      attributes:
+        id: MCSPI_EN_NPCS0
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: 'true'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    MCSPI_MASTER_CLOCK:
+      attributes:
+        id: MCSPI_MASTER_CLOCK
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '118784000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    MCSPI_NUM_CSR:
+      attributes:
+        id: MCSPI_NUM_CSR
+      children:
+      - children:
+        - attributes:
+            id: mcspi
+            value: '1'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}

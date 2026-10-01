@@ -1,0 +1,193 @@
+configVersion: 1.0.0
+componentName: tc1
+coreVersion: 5.8.4
+device: PIC32CX2051MTC128
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: tc1
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: csp
+  type: package
+  version: v3.25.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: tc1
+          x: '476'
+          y: '304'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    TC0_CLOCK_FREQ:
+      attributes:
+        id: TC0_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: '6250000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC0_TIMER_PERIOD_COUNT:
+      attributes:
+        id: TC0_TIMER_PERIOD_COUNT
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: '1562500'
+          type: Dynamic
+        type: Values
+      type: Long
+    TC0_TIMER_PERIOD_MS:
+      attributes:
+        id: TC0_TIMER_PERIOD_MS
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '687194.75'
+          type: Float
+        type: Attributes
+      - children:
+        - attributes:
+            value: '250.0'
+          type: User
+        type: Values
+      type: Float
+    TC0_ENABLE:
+      attributes:
+        id: TC0_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TC0_PCK7:
+      attributes:
+        id: TC0_PCK7
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC0_CMR_TCCLKS:
+      attributes:
+        id: TC0_CMR_TCCLKS
+      children:
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TC0_CMR_CPCSTOP:
+      attributes:
+        id: TC0_CMR_CPCSTOP
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TC1_TIMER_PERIOD_COUNT:
+      attributes:
+        id: TC1_TIMER_PERIOD_COUNT
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: '0'
+          type: Dynamic
+        type: Values
+      type: Long
+    TC1_TIMER_PERIOD_MS:
+      attributes:
+        id: TC1_TIMER_PERIOD_MS
+      children:
+      - children:
+        - attributes:
+            id: max
+          children:
+          - type: Value
+            value: '687194.75'
+          type: Float
+        type: Attributes
+      - children:
+        - attributes:
+            value: '0.0'
+          type: User
+        type: Values
+      type: Float
+    TC1_CLOCK_FREQ:
+      attributes:
+        id: TC1_CLOCK_FREQ
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: '6250000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    TC1_ENABLE:
+      attributes:
+        id: TC1_ENABLE
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+    TC1_PCK7:
+      attributes:
+        id: TC1_PCK7
+      children:
+      - children:
+        - attributes:
+            id: tc1
+            value: 'false'
+          type: Dynamic
+        type: Values
+      type: Boolean
+    TC1_CMR_TCCLKS:
+      attributes:
+        id: TC1_CMR_TCCLKS
+      children:
+      - children:
+        - attributes:
+            value: '3'
+          type: User
+        type: Values
+      type: KeyValueSet
+    TC1_CMR_CPCSTOP:
+      attributes:
+        id: TC1_CMR_CPCSTOP
+      children:
+      - children:
+        - attributes:
+            value: 'true'
+          type: User
+        type: Values
+      type: Boolean
+  userData: {}

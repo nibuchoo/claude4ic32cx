@@ -1,0 +1,18 @@
+package:
+  format-version: "1.0.0"
+  name: "smartenergy_metrology_apps"
+  version: "v2.0.0"
+  type: "application"
+  status: "production"
+  required: false
+
+  dependencies:
+    - name: "smartenergy_metrology"
+      type: "package"
+      version: "v2.0.0"
+    - name: "shd"
+      type: "package"
+      version: "v1.2.1"
+    - name: "gfx"
+      type: "package"
+      version: "v3.16.3"

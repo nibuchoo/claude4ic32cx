@@ -1,0 +1,54 @@
+configVersion: 1.0.0
+componentName: emafe
+coreVersion: 5.8.3
+device: PIC32CX2051MTSH128
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: emafe
+  type: module
+  version: ''
+- dependencyPackage: ''
+  devMode: true
+  name: smartenergy_metrology
+  type: package
+  version: v2.0.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments: {}
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: emafe
+          x: '30'
+          y: '211'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols:
+    EMAFE_MCSPI_MASTER_CLOCK:
+      attributes:
+        id: EMAFE_MCSPI_MASTER_CLOCK
+      children:
+      - children:
+        - attributes:
+            id: emafe
+            value: '118784000'
+          type: Dynamic
+        type: Values
+      type: Integer
+    EMAFE_PCK2_CLOCK:
+      attributes:
+        id: EMAFE_PCK2_CLOCK
+      children:
+      - children:
+        - attributes:
+            id: emafe
+            value: '4096000'
+          type: Dynamic
+        type: Values
+      type: Integer
+  userData: {}

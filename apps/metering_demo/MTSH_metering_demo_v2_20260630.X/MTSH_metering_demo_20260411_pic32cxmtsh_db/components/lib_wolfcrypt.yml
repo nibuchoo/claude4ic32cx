@@ -1,0 +1,57 @@
+configVersion: 1.0.0
+componentName: lib_wolfcrypt
+coreVersion: 5.8.4
+device: PIC32CX2051MTSH128
+library: []
+dependency:
+- dependencyPackage: class com.microchip.mcc.harmony.HarmonyModule
+  name: lib_wolfcrypt
+  type: module
+  version: ''
+- dependencyPackage: ''
+  name: crypto_v4
+  type: package
+  version: v4.0.0-E3
+- dependencyPackage: ''
+  name: wolfssl
+  type: package
+  version: v5.7.0
+customDataClassName: com.microchip.utils_mh3.utils.persistence.CustomModuleData
+data:
+  attachments:
+    children:
+    - children:
+      - attributes:
+          id: LIB_WOLFCRYPT_DEPENDENCY
+        children:
+        - children:
+          - attributes:
+              id: targetComponentID
+            children:
+            - type: Value
+              value: lib_crypto
+            type: String
+          - attributes:
+              id: targetAttachmentID
+            children:
+            - type: Value
+              value: LIB_WOLFCRYPT_CAPABILITY
+            type: String
+          type: Attributes
+        type: DirectDependency
+      type: Attachments
+    type: lib_wolfcrypt
+  elementPosition:
+    attributes:
+      id: __ROOTVIEW
+    children:
+    - children:
+      - attributes:
+          id: lib_wolfcrypt
+          x: '196'
+          y: '415'
+        type: ElementPosition
+      type: ElementPositions
+    type: ComponentGraph
+  symbols: {}
+  userData: {}
